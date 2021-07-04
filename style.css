@@ -1,0 +1,83 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: lavenderblush;
+    background-image: url(images/border.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    color: red;
+}
+span{
+    color: red;
+}
+#sec1{
+    display: flex;
+}
+#div1{
+    padding-top: 70px;
+    padding-left: 100px;
+}
+#div1 img{
+    height: 350px;
+    width: 350px;
+}
+#div2{
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 20%;
+}
+#sec2{
+    display: flex;
+    margin: 0px;
+    padding-top: 70px;
+    background-image: url(images/tree.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: right;
+}
+.div-s2{
+    width: 50%;
+    padding-left: 20px;
+}
+.div-s2 img{
+    height: 550px;
+    width: 550px;
+}
+#sec3{
+    display: flex;
+    background-color:rgb(221, 192, 192);
+    margin: 30px;
+    border: red solid 5px;
+    border-radius: 20px;
+}
+.div-s3{
+    padding: 20px;
+    margin: 20px;
+    background-color: lavenderblush;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+a{
+    display: block;
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    font-weight: 1200;
+    color: black;
+    background-image: linear-gradient(red, tomato);
+    padding: 5%;
+    border-radius: 20px;
+}
+#footer{
+    text-align: center;
+    color: gray;
+}
+#one{
+    background-image: url(images/tree.png);
+}
